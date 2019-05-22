@@ -1,13 +1,10 @@
 import requests
 import datetime
-import locale
-import calendar
 
 class TextGenerator:
 
     def __init__(self):
         self.data = []
-        locale.setlocale(locale.LC_ALL, 'de_DE')
 
     def get_forecast(self, data, date_today: datetime, date_requested: datetime):
 
@@ -51,7 +48,9 @@ class TextGenerator:
         elif (diff_in_days == 1):
             return "morgen"
         else:
-            weekday_name = calendar.day_name[date_requested.weekday()]
+            weekDays=("Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag")
+
+            weekday_name = weekDays[date_requested.weekday()]
             return "am {}".format(weekday_name)
 
     def get_location_not_found(self):
