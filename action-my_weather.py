@@ -32,7 +32,7 @@ class Template(object):
 
         ret = my_weather.get_my_weather_forecast(intent_message)
 
-        hermes.publish_start_session_notification(intent_message.site_id, ret)
+        hermes.publish_start_session_notification(intent_message.site_id, ret, "My Weather")
 
     def master_intent_callback(self,hermes, intent_message):
         coming_intent = intent_message.intent.intent_name
