@@ -36,7 +36,7 @@ class Template(object):
 
     def master_intent_callback(self,hermes, intent_message):
         coming_intent = intent_message.intent.intent_name
-        if coming_intent == 'getMyWeatherForecast':
+        if coming_intent == 'michilehr:getMyWeatherForecast':
             self.getMyWeatherForecast(hermes, intent_message)
 
     def start_blocking(self):
