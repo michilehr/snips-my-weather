@@ -16,7 +16,7 @@ class TextGenerator:
         day_text = self.__getDayText(date_today, date_requested)
         location = data["location"]
 
-        return f"Wetter {day_text} in {location}: {condition_text} mit Temperaturen von {temperature_text}."
+        return "Wetter {} in {}: {} mit Temperaturen von {}.".format(day_text, location, condition_text, temperature_text)
 
     def __getConditonText(self, data):
 
@@ -25,7 +25,7 @@ class TextGenerator:
         if(len(conditions) > 1):
             best_condition = conditions[0]
             worst_condition = conditions[len(conditions) - 1]
-            return f"{best_condition} bis {worst_condition}"
+            return "{} bis {}".format(best_condition, worst_condition)
         else:
             return conditions[0]
 
@@ -35,9 +35,9 @@ class TextGenerator:
         temp_max = data["temp_max"]
 
         if(temp_min != temp_max):
-            return f"{temp_min} bis {temp_max} Grad"
+            return "{} bis {} Grad".format(temp_min, temp_max)
         else:
-            return f"{temp_min} Grad"
+            return "{} Grad".format(temp_min)
 
     def __getDayText(self, date_today: datetime, date_requested: datetime):
         
@@ -52,7 +52,7 @@ class TextGenerator:
             return "morgen"
         else:
             weekday_name = calendar.day_name[date_requested.weekday()]
-            return f"am {weekday_name}" 
+            return "am {}".format(weekday_name)
 
     def get_location_not_found(self):
         return "Der angegebene Ort konnte nicht gefunden werden."
