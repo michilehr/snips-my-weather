@@ -43,4 +43,11 @@ At the moment you can ask for the current weather or a weather forecast for your
 ## Development
 
 The app already has lots of unit tests which can be run by `./run_tests.py`
+
+1. Clone repository
+
+2. Run `source setup_dev.sh` to install dev dependencies
+
+3. Run tests `./run_tests.py`
+
 Feel free to fork and open up pull requests.

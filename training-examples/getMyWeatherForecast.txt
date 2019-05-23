@@ -1,0 +1,28 @@
+Sage mir die Wettervorhersage [am Montag](forecast_date_time)
+Sage mir die Wettervorhersage [am Samstag](forecast_date_time)
+Sage mir die Wettervorhersage für [Neckarsulm](forecast_location) [am Samstag](forecast_date_time)
+Welches Wetter herrscht [am Samstag](forecast_date_time) in [Heilbronn](forecast_location)
+Welches Wetter herrscht [am Samstag](forecast_date_time)
+Ich möchte das Wetter [am Sonntag](forecast_date_time) in [Mannheim](forecast_location) wissen
+Ich möchte das Wetter in [Mannheim](forecast_location) [am Sonntag](forecast_date_time) wissen
+Ich möchte das Wetter in [Mannheim](forecast_location) wissen
+Wettervorhersage [am Samstag](forecast_date_time)
+Wettervorhersage für [Neckarsulm](forecast_location) [am Samstag](forecast_date_time)
+Wettervorhersage
+Wetter in [Neckarsulm](forecast_location)
+Wetter [am Donnerstag](forecast_date_time) in [Neckarsulm](forecast_location)
+Wetter [am Donnerstag](forecast_date_time)
+Wetter
+Wie ist das Wetter [am Donnerstag](forecast_date_time) in [Heilbronn](forecast_location)
+Wie ist das Wetter [am Donnerstag](forecast_date_time)
+Wie ist das Wetter [heute](forecast_date_time) in [Heilbronn](forecast_location)
+Wie ist das Wetter [am Montag](forecast_date_time) in [Heilbronn](forecast_location)
+Wie ist das Wetter in [Heilbronn](forecast_location)
+Wie ist das Wetter
+Wie wird das Wetter [am Donnerstag](forecast_date_time)
+Wie wird das Wetter [am Donnerstag](forecast_date_time) in [Heilbronn](forecast_location)
+Wie wird das Wetter
+Kannst du mir sagen wie das Wetter in [New York](forecast_location) [am Donnerstag](forecast_date_time) wird
+Kannst du mir sagen wie das Wetter in [New York](forecast_location) wird
+Kannst du mir sagen wie das Wetter [am Donnerstag](forecast_date_time) wird
+Kannst du mir sagen wie das Wetter wird
