@@ -1,6 +1,6 @@
 # Snips-Mein Wetter 🌤
 
-This app is a skill for the the private-by-design self-hosted voice assistant Snips.ai](https://snips.ai/).
+This app is a skill for the the private-by-design self-hosted voice assistant [Snips.ai](https://snips.ai/).
 
 The skill uses the [OpenWeatherMap](https://openweathermap.org/) as data provider to say the current weather or weather forecast for a passed location. 
 
