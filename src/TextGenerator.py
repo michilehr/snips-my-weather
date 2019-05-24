@@ -66,4 +66,4 @@ class TextGenerator:
         return "Es ist ein Verbindungsfehler aufgetreten."
 
     def get_unknown_error(self):
-        return "Es ist ein unbekannter Fehler."
+        return "Es ist ein unbekannter Fehler aufgetreten."
