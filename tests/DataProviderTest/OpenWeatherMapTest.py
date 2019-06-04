@@ -87,7 +87,7 @@ class DataProviderOpenWeatherMapTest(unittest.TestCase):
 
         data_provider = OpenWeatherMap(api_key, location_name, date)
 
-        f = open("tests/DataproviderTest/response_ok.txt", "r")
+        f = open("tests/DataProviderTest/response_ok.txt", "r")
 
         try:
             data_provider.get_forecast_data(self._get_mock_request(200, json.loads(f.read())))
