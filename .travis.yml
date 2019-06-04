@@ -8,6 +8,7 @@ matrix:
       sudo: true
 cache: pip3
 install:
-  - ./setup_dev.sh
+  - pip3 install -r requirements.txt
+  - pip3 install -r requirements_dev.txt
 script:
   - python run_tests.py
