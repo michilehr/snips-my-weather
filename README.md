@@ -51,3 +51,5 @@ The app already has lots of unit tests which can be run by `./run_tests.py`
 3. Run tests `./run_tests.py`
 
 Feel free to fork and open up pull requests.
+
+[![Build Status](https://travis-ci.com/michilehr/snips-my-weather.svg?branch=master)](https://travis-ci.com/michilehr/snips-my-weather)
