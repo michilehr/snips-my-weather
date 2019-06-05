@@ -1,4 +1,5 @@
 import unittest
+import sys
 
 from tests.DataProviderTest import OpenWeatherMapTest
 from tests import MyWeatherTest
@@ -11,4 +12,7 @@ suite.addTests(loader.loadTestsFromModule(OpenWeatherMapTest))
 suite.addTests(loader.loadTestsFromModule(TextGeneratorTest))
 
 runner = unittest.TextTestRunner(verbosity=2)
-result = runner.run(suite)
+hasFailedTests = not runner.run(suite).wasSuccessful()
+
+if hasFailedTests:
+    sys.exit(1)
