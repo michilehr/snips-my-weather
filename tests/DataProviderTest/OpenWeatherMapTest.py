@@ -61,7 +61,7 @@ class DataProviderOpenWeatherMapTest(unittest.TestCase):
         try:
             data_provider.get_forecast_data(request_mock)
         except Exception as e:
-            self.assertEqual(str(e), "connection error")
+            self.assertEqual(str(e), "connection erro")
 
     def test_request_success_day_found(self):
         api_key = "ABCDEF"
