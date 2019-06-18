@@ -13,3 +13,4 @@ install:
 script:
   - python run_tests.py
   - coverage run --source src run_tests.py
+  - coveralls
