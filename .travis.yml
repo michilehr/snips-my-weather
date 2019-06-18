@@ -11,4 +11,5 @@ install:
   - pip3 install -r requirements.txt
   - pip3 install -r requirements_dev.txt
 script:
-  - nosetests --with-coverage --cover-package=src
+  - python run_tests.py
+  - coverage run --source src run_tests.py

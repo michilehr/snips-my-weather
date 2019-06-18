@@ -1,4 +1,4 @@
 mock
 pylint
-nose
 coverage
+coveralls
