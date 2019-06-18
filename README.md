@@ -52,4 +52,4 @@ The app already has lots of unit tests which can be run by `./run_tests.py`
 
 Feel free to fork and open up pull requests.
 
-[![Build Status](https://travis-ci.com/michilehr/snips-my-weather.svg?branch=master)](https://travis-ci.com/michilehr/snips-my-weather)
+[![Build Status](https://travis-ci.com/michilehr/snips-my-weather.svg?branch=master)](https://travis-ci.com/michilehr/snips-my-weather) [![Coverage Status](https://coveralls.io/repos/github/michilehr/snips-my-weather/badge.svg)](https://coveralls.io/github/michilehr/snips-my-weather)
